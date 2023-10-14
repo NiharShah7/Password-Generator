@@ -1,1 +1,268 @@
 /* You can add global styles to this file, and also import other style files */
+@import "ngx-toastr/toastr";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #3a4664;
+  color: aliceblue;
+}
+.Parent {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  /* border: 2px solid green; */
+  width: 600px;
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 29px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.button {
+  /* border: 1px solid black; */
+  height: 50px;
+  width: 600px;
+  display: flex;
+}
+
+.btn {
+  background-color: rgb(219, 134, 36);
+  height: 50px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.btn:hover {
+  background-color: rgb(219, 134, 36);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.button input {
+  margin-right: 5px;
+  width: 550px;
+  height: 50px;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.button i {
+  width: 60px;
+  color: rgb(0, 0, 0);
+}
+
+.passSettings {
+  margin-top: 20px;
+  /* border: 1px solid blue; */
+  width: 600px;
+  height: 100px;
+  display: flex;
+}
+
+.passSettings .changeLength {
+  /* border: 2px solid black; */
+  height: 80px;
+  width: 49%;
+}
+.changeLength input {
+  margin-right: 5px;
+}
+
+.passStrength {
+  margin-top: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.btn-genratePassword {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  height: 60px;
+  width: 280px;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #eaa0a2;
+  color: black;
+}
+.btn-genratePassword:hover {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.MypassInputBox {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.spanTag {
+  background-color: #eaa0a2;
+  color: #3a4664;
+  height: 70px;
+  width: 80px;
+  border-radius: 3px;
+  margin-left: 10px;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #111;
+}
+footer .content {
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,
+a {
+  color: #fff;
+}
+footer .content .box {
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+}
+footer .content p {
+  text-align: justify;
+}
+footer .content .lower .topic {
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i {
+  padding-right: 16px;
+}
+footer .content .middle {
+  padding-left: 80px;
+}
+footer .content .middle a {
+  line-height: 32px;
+}
+footer .content .right input[type="text"] {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"] {
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: #eb2f06;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #eb2f06;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover {
+  background: none;
+  color: #eb2f06;
+}
+footer .content .media-icons a {
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover {
+  border-color: #eb2f06;
+}
+footer .bottom {
+  width: 100%;
+  text-align: right;
+  color: #d9d9d9;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a {
+  color: #eb2f06;
+}
+footer a {
+  transition: all 0.3s ease;
+}
+footer a:hover {
+  color: #eb2f06;
+}
+@media (max-width: 1100px) {
+  footer .content .middle {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 950px) {
+  footer .content .box {
+    width: 50%;
+  }
+  .content .right {
+    margin-top: 40px;
+  }
+}
+@media (max-width: 560px) {
+  footer {
+    position: relative;
+  }
+  footer .content .box {
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle {
+    padding-left: 0;
+  }
+}
