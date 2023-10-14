@@ -1,4 +1,9 @@
 # PasswordGenrator
+![PASSWORDGENRATOR](https://github.com/NiharShah7/Password-Generator/assets/141811336/49483eb0-03fc-4143-b93e-001a27202472)
+
+![scrnli_10_13_2023_2-45-58 PM](https://github.com/NiharShah7/Password-Generator/assets/141811336/9cebd527-edd4-4ea2-bf38-8df04463cb1a)
+
+![scrnli_10_13_2023_2-45-17 PM](https://github.com/NiharShah7/Password-Generator/assets/141811336/09df157d-c6d1-4ce0-9721-11c104bea139)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.5.
 
